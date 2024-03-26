@@ -3,7 +3,9 @@ import CreateProductOne from "@/components/forms/create_product/CreateProductOne
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 
-const breadcrumbItems = [{ title: "Profile", link: "/dashboard/profile" }];
+const breadcrumbItems = [
+  { title: "Add Product", link: "/dashboard/addproduct" },
+];
 export default function page() {
   return (
     <ScrollArea className="h-full">

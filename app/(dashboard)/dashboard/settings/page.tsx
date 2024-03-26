@@ -123,7 +123,7 @@ const SettingsForm = () => {
     // Reload the page after 1.5 seconds
     setTimeout(() => {
       window.location.reload();
-    }, 3500);
+    }, 1500);
   }
 
   return (
