@@ -15,7 +15,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { getSettings } from "@/lib/actions/settings.action";
-import { use, useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 import { Separator } from "./ui/separator";
 
 const notifications = [
